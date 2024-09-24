@@ -16,7 +16,7 @@ public class Calculate_if {
         System.out.println("Choose an operation: ");
         System.out.println(operationList);
 
-        int selectedOperation = 1;
+        int selectedOperation;
 
         do {
             selectedOperation = scanner.nextInt();
@@ -36,7 +36,6 @@ public class Calculate_if {
             result += number;
         }
         System.out.println("The result is: " + result);
-        return;
     }
 
     public static void subtraction(int[] numbers) {
@@ -47,7 +46,6 @@ public class Calculate_if {
             result -= numbers[i];
         }
         System.out.println("The result is: " + result);
-        return;
     }
 
     public static void multiplication(int[] numbers) {
@@ -59,7 +57,6 @@ public class Calculate_if {
         }
 
         System.out.println("The result is: " + result);
-        return;
     }
 
     public static void division(int[] numbers) {
@@ -71,7 +68,6 @@ public class Calculate_if {
         }
 
         System.out.println("The result is: " + result);
-        return;
     }
 
     public static void exponentiation(int[] numbers) {
@@ -82,6 +78,5 @@ public class Calculate_if {
         }
 
         System.out.println("The result is: " + result);
-        return;
     }
 }
